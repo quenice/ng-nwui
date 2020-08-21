@@ -1,0 +1,3 @@
+<i *ngIf="icon && !loading" class="fa left-icon" [class] = "icon"></i>
+<i *ngIf="loading" class="fa fa-spinner left-icon" [class]="loadingCss"></i>
+<ng-content></ng-content>

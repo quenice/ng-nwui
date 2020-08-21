@@ -1,0 +1,21 @@
+.fa {
+  font-size: 12px;
+}
+
+.left-icon {
+  margin-right: 10px;
+}
+
+.loading {
+  animation: rotate-tran 1s linear infinite;
+  -webkit-animation: rotate-tran 1s linear infinite;
+}
+
+@keyframes rotate-tran {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
